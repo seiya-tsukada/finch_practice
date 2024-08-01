@@ -1,0 +1,30 @@
+brew install --cask finch
+brew install finch
+
+finch vm init
+
+finch vm start
+
+finch vm stop
+
+finch vm status
+
+finch -v
+
+
+
+finch pull alpine:latest
+finch pull rockylinux:9
+
+finch run -it rockylinux:9 /bin/bash
+
+
+
+
+
+
+
+
+https://hub.docker.com/search?q=&image_filter=official
+
+https://runfinch.com/
