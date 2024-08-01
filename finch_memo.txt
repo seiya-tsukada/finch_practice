@@ -18,8 +18,7 @@ finch pull rockylinux:9
 
 finch run -it rockylinux:9 /bin/bash
 
-
-
+finch image build -t <image_name>:<tag_name> <path_Dockerfile> --no-cache
 
 
 
